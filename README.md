@@ -1,4 +1,4 @@
-# Error Estimation in Inexact Floating-Point Adders
+# Error Estimation in Inexact Floating Point Adders
 
 ## 🔍 Overview
 
@@ -17,12 +17,12 @@ This project focuses on implementing and evaluating an inexact IEEE-754 single-p
 
 ## ⚙️ Methodology
 
-- Implemented an inexact single-precision floating-point adder using Verilog HDL.
-- Evaluated the floating-point addition architecture, including exponent subtraction, mantissa swapping, alignment, approximate mantissa addition, normalization, and exponent updating.
-- Computed exact and inexact floating-point addition results for comparison.
-- Developed an error-estimation framework to calculate absolute and relative errors.
-- Evaluated numerical deviations using mean absolute error, maximum absolute error, and root mean square (RMS) error.
-- Simulated the design using Xilinx Vivado and examined RTL schematics, behavioral waveforms, and simulation outputs.
+- **RTL Design:** Implemented the inexact floating-point adder using Verilog HDL.
+- **Arithmetic Operations:** Applied approximate exponent subtraction and mantissa addition.
+- **Result Comparison:** Compared exact and inexact floating-point outputs.
+- **Error Calculation:** Calculated absolute and relative errors.
+- **Statistical Analysis:** Evaluated mean, maximum, and RMS error.
+- **Simulation:** Verified the design behavior through Xilinx Vivado simulation and waveform analysis.
 
 ## 📊 Key Results
 
